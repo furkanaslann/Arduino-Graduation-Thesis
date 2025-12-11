@@ -3,10 +3,10 @@
 #include <ESP8266HTTPClient.h>
 
 const char *ssid = "Galaxy M31s";      // WiFi ağ adı
-const char *password = "mhtb4111";  // WiFi şifresi
-const char *api_key = "OF81N1WTUDJ1PMLC";  // ThingSpeak API anahtarı
+const char *password = "";  // WiFi şifresi
+const char *api_key = "";  // ThingSpeak API anahtarı
 const char *api_write = "api.thingspeak.com";
-const char *channel_id = "2390979";  // ThingSpeak Channel ID
+const char *channel_id = "";  // ThingSpeak Channel ID
 
 HX711 scale;
 
